@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: rgba(67, 41, 77, 0.988);
+    height: 100vh;
+    /*height is the height of the browser vwindow*/
+    text-align: center;
+  }
+  
+  h1 {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10%;
+  }
+  
+  #statusText {
+    color: chartreuse;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2em;
+    /*1m is margin size of the font size}*/
+    margin-bottom: 2em;
+  }
+  
+  #cellContainer {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    /*centre the element to its parent container*/
+    color: #fff;
+    border: 4px solid black;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    /*each column and each row a third of the grid*/
+  }
+  
+  .cell {
+    border: 2px solid wheat;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #restartBtn {
+    padding: 15px;
+    margin: 1.5em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    font-family: "Press Start 2P", sans-serif;
+    background-color: #2873d6db;
+    color: chocolate;
+  }
